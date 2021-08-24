@@ -11,11 +11,11 @@ In general, this is a blank application using all defaults.  It was created with
 ### General Approach
 Change grails version in gradle.properties.  No other changes are needed.
 
-####grails-4.0.3
+#### grails-4.0.3
 * Run the application with `run-app` and note that the index page shows "Test(line break)String" on two lines.  The HTML output from the codec is not encoded.
 * Run gradle tasks `clean` (just to be sure) and `assemble`.  Run the resulting jar.  Note that the index page shows the same thing as before.
 
-####grails-4.0.4
+#### grails-4.0.4
 * Same output from `run-app`
 * When using `clean`, `assemble`, and running the resulting jar, the index page output shows the text "Test&lt;br/&gt;String" with the HTML encoded.
  
