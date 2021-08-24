@@ -6,7 +6,7 @@ In general, this is a blank application using all defaults.  It was created with
 * [index.gsp](https://github.com/danduke/encoding-test/blob/master/grails-app/views/index.gsp) - This should output "Test(line break)String"
 * [gradle.properties](https://github.com/danduke/encoding-test/blob/master/gradle.properties) - Change version from 4.0.3 to 4.0.4 to reproduce problem
 * [DemoCodec](https://github.com/danduke/encoding-test/blob/master/grails-app/utils/encoding/test/DemoCodec.groovy) - A simple codec that outputs HTML
-* [application.yml](https://github.com/danduke/encoding-test/blob/master/grails-app/conf/application.yml) - Sets default output encoding
+* [application.yml](https://github.com/danduke/encoding-test/blob/master/grails-app/conf/application.yml) - Sets default output encoding around line 78
 
 ### General Approach
 Change grails version in gradle.properties.  No other changes are needed.
